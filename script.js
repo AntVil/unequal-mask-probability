@@ -52,7 +52,7 @@ window.addEventListener("load", () => {
 function binaryVectorSkalarProduct(x, y) {
     let product = x & y;
     let sum = 0;
-    while (product > 1) {
+    while (product > 0) {
         sum ^= product & 1;
         product = product >> 1;
     }
