@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color-scheme: dark;
+    color: #EEE;
+}
+
+body {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+input {
+    background-color: #222;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
